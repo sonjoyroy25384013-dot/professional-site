@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDIPTO BARMAN | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #1a1a1a; --accent: #007bff; --success: #25D366; --bg: #f8f9fa; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; margin: 0; color: #333; background: var(--bg); }
+        header { background: linear-gradient(135deg, #1a1a1a 0%, #002c5f 100%); color: white; padding: 60px 20px; text-align: center; border-bottom: 4px solid var(--accent); }
+        .hero-title { font-family: 'Montserrat', sans-serif; font-size: 2.2rem; margin: 0; text-transform: uppercase; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .card { background: white; padding: 25px; margin-bottom: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h2 { color: var(--accent); font-size: 1.3rem; border-left: 4px solid var(--accent); padding-left: 10px; margin-top: 0; }
+        .gallery-flex { display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 20px; }
+        
+        /* Fixed image sizing to ensure they display properly */
+        img { width: 140px; height: auto; min-height: 180px; border-radius: 12px; transition: 0.3s; border: 1px solid #ddd; background: #eee; object-fit: cover; }
+        
+        img:hover { transform: scale(1.08); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+        .btn-group { display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+        .btn { padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; color: white; transition: 0.3s; display: inline-block; }
+        .btn-blue { background: var(--accent); }
+        .btn-green { background: var(--success); }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="hero-title">SUDIPTO BARMAN</h1>
+        <p>Visual Transformation & Digital Strategy Specialist</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Recent Transformations</h2>
+            <div class="gallery-flex">
+                <div style="text-align:center">
+                    <img src="before.png" alt="Before Transformation">
+                    <br><small>Original</small>
+                </div>
+                <div style="font-size: 24px; color: var(--accent);">➜</div>
+                <div style="text-align:center">
+                    <img src="after.png" alt="After Transformation" style="border: 2px solid var(--accent);">
+                    <br><small>Professional Edit</small>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>About My Services</h2>
+            <p>I specialize in bridging the gap between casual technology and professional results. Using advanced AI tools, I transform everyday imagery into high-quality corporate assets suitable for LinkedIn and professional profiles.</p>
+        </div>
+        <div class="card">
+            <h2 style="color: var(--accent); font-size: 1.3rem; border-left: 4px solid var(--accent); padding-left: 10px;">Core Expertise</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; margin-top: 15px;">
+                <div style="background: #f0f7ff; padding: 15px; border-radius: 12px; text-align: center; border: 1px solid #e0eefb;">
+                    <span style="font-size: 24px;">🤖</span><br>
+                    <small><b>AI Visuals</b></small><br>
+                    <small style="font-size: 10px; color: #666;">Formal Edits</small>
+                </div>
+                <div style="background: #f0f7ff; padding: 15px; border-radius: 12px; text-align: center; border: 1px solid #e0eefb;">
+                    <span style="font-size: 24px;">📱</span><br>
+                    <small><b>Android Expert</b></small><br>
+                    <small style="font-size: 10px; color: #666;">Redmi Note 12</small>
+                </div>
+                <div style="background: #f0f7ff; padding: 15px; border-radius: 12px; text-align: center; border: 1px solid #e0eefb;">
+                    <span style="font-size: 24px;">🌐</span><br>
+                    <small><b>Bilingual</b></small><br>
+                    <small style="font-size: 10px; color: #666;">English & Bengali</small>
+                </div>
+            </div>
+        </div>
+<div class="card" style="text-align: center;">
+    <h2>Start a Project</h2>
+    <div class="btn-group">
+        <a href="mailto:sudiptoroy274114@gmail.com" class="btn btn-blue">Email Me</a>
+        <a href="https://wa.me/8801340579924" class="btn btn-green">WhatsApp Chat</a>
+    </div>
+</div>
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 40px 20px; color: #888;">
+        <p><small>&copy; 2026 Sonjoy Chandra Roy. Built with Termux.📞01739217450</small></p>
+    </footer>
+</body>
+</html>
